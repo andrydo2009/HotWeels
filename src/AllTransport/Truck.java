@@ -47,3 +47,5 @@ public class Truck extends Transport implements Contest {
         return super.hashCode();
     }
 }
+
+//
