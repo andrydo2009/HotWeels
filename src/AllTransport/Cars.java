@@ -53,8 +53,6 @@ public class Cars  extends Transport implements Contest{
     public String toString() {
         return "Автомобиль " + getBrand() + " " + getModel() + ", объем двигателя " + getEngineVolume();
     }
-
-
 }
 
-//
+

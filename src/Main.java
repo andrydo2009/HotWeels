@@ -48,15 +48,6 @@ public class Main {
         Semen.goDrive(truck_1);
 
 
-
-//
-
-
-
-
-
-
-
     }
 }
 

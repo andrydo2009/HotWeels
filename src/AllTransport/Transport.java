@@ -43,13 +43,13 @@ public abstract class Transport {
         return model;
     }
 
-    public void getStart(){};
+    public abstract void getStart();
 
-    public void getStop(){};
+    public abstract void getStop();
 
     @Override
     public abstract String toString();
 }
 
-//
+
 

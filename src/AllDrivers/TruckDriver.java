@@ -18,17 +18,17 @@ public class TruckDriver<C extends Transport & Contest> extends Driver {
 
     @Override
     public void getStart() {
-
+        System.out.println("Водитель "+ getFullNameDriver() + " стартует");
     }
 
     @Override
     public void getStop() {
-
+        System.out.println("Водитель "+ getFullNameDriver() + " останавливается");
     }
 
     @Override
     public void refuelTransport() {
-
+        System.out.println("Водитель "+ getFullNameDriver() + " заправляется");
     }
 
     @Override
@@ -48,4 +48,3 @@ public class TruckDriver<C extends Transport & Contest> extends Driver {
 }
 
 
-//
