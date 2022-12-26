@@ -2,11 +2,11 @@ package AllTransport;
 
 
 
-public class Cars  extends Transport implements Contest{
+public class Car extends Transport implements Contest{
 
 
 
-        public Cars(String brand, String model, double engineVolume) {
+        public Car(String brand, String model, double engineVolume) {
         super(brand, model, engineVolume);
     }
 
@@ -22,8 +22,8 @@ public class Cars  extends Transport implements Contest{
     }
 
     @Override
-    public void goPitStop(boolean out_or_in) {
-        if (out_or_in)
+    public void goPitStop(boolean OutOrIn) {
+        if (OutOrIn)
         {System.out.println("Автомобиль "+getBrand()+" "+getModel()+" заезжает на Пит Стоп!");}
         else {System.out.println("Автомобиль "+getBrand()+" "+getModel()+" покинул Пит Стоп!");}
     }
