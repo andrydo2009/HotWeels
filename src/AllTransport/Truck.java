@@ -6,8 +6,8 @@ public class Truck extends Transport implements Contest {
     }
 
     @Override
-    public void goPitStop(boolean out_or_in) {
-        if (out_or_in)
+    public void goPitStop(boolean OutOrIn) {
+        if (OutOrIn)
         {System.out.println("Грузовик "+getBrand()+" "+getModel()+" заезжает на Пит Стоп!");}
         else {System.out.println("Грузовик "+getBrand()+" "+getModel()+" покинул Пит Стоп!");}
     }
@@ -47,3 +47,5 @@ public class Truck extends Transport implements Contest {
         return super.hashCode();
     }
 }
+
+
