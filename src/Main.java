@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Car car1=new Car("Lada","Granta",1.7);
+        Car car1=new Car("Lada","Grants",1.7);
         System.out.println(car1);
         Car car2=new Car("Audi","A8 50 L TDI quattro",3.0);
         System.out.println(car2);
